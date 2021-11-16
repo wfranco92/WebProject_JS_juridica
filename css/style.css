@@ -1,0 +1,112 @@
+/**{border: 1px solid red;}*/
+header{
+    margin:auto;
+    width: 80%;
+    height: 150px;
+    background-color: darkgray;
+}
+
+nav{
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    /*border: 1px solid red;*/
+}
+li{
+    
+    float: left;
+    width: 10%;
+    /*border: 1px solid blue;*/
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*border: 1px solid rgb(0, 255, 21);*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: darkgray;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#form input{
+    font-size: 22px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input[type="text"]{
+    max-width: auto;
+}
+
+div{
+    width: 20%;
+}
+
+#demo{
+    width: auto;
+}
+
+#form{
+    margin:auto;
+    
+}
+
+.inputform{
+    width: 98%;
+    height: 30px;
+    margin-top: 0px;
+}
+
+p{
+    padding: 1px;
+    margin: 0px;
+}
+
+#resul{
+    
+    visibility:hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+}
+
