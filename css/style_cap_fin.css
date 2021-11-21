@@ -84,7 +84,7 @@ div{
 }
 
 .inputform{
-    width: 98%;
+    width: 96%;
     height: 30px;
     margin-top: 0px;
 }
@@ -109,3 +109,35 @@ p{
     padding: 10px;
 }
 
+
+
+.col_par{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#btncalcular{
+    text-decoration: none;
+    background-color: tomato;
+    color: azure;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+
+#btncalcular:hover{ background-color: rgb(241, 143, 125);}
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+figure{
+    text-align: center;
+}
