@@ -46,7 +46,7 @@
             }
             else if (columnas==filas){
                 txt+="<td>";
-                txt+="<button onclick='lance()''>Lance</button>";
+                txt+='<button onclick="lance()" style="background-color: tomato; color: white;" >Lance</button>';
                 txt+="</td>";
             }
             else{

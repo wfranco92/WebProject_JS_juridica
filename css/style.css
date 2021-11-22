@@ -15,7 +15,7 @@ nav{
 li{
     
     float: left;
-    width: 10%;
+    width: 12%;
     padding: 5px;
 }
 nav ul{
@@ -47,6 +47,7 @@ h1{
 
 body{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 #form input{
     font-size: 22px;
@@ -87,6 +88,7 @@ div{
     width: 98%;
     height: 30px;
     margin-top: 0px;
+    border-radius: 5px;
 }
 
 p{
@@ -109,3 +111,81 @@ p{
     padding: 10px;
 }
 
+#container{
+
+    height: 100vh;
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+
+#loginUser{
+
+    display: block;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+    margin-left: 5%;
+    position: absolute;
+}
+
+img{
+    width: 100vw;
+    border-radius: 10px;
+}
+
+#formloguin{
+
+    width: 100%;
+    line-height: 50px;
+}
+
+.inputform2{
+    width: 97%;
+    height: 30px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+#btnsubmit{
+    
+    border-radius: 10px;
+    background-color: rgb(70, 40, 5);
+    color: aliceblue;
+    height: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+#btnsubmit:hover{
+    background-color: rgb(114, 98, 79);
+}
+
+#btnCrearTabla{
+    
+    border-radius: 10px;
+    background-color: tomato;
+    color: aliceblue;
+    height: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#btnCrearTabla:hover{
+    background-color: rgb(252, 150, 133);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#msgError{
+    font-weight: bold;
+    display: none;
+}

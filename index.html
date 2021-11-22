@@ -8,30 +8,25 @@
     <title>Jenny Chavez</title> 
 </head>
 <body>
-    <header></header>
-    <nav>
-        <ul>
-            <li> <a href="#">Subasta</a> </li>
-            <li> <a href="content/cap_financiera.html">C Financiera</a> </li>
-            <li> <a href="content/img_formulas.html">Formulas</a> </li>
-            <li> <a href="#">Otro</a> </li>
-        </ul>
-    </nav>
-
-    <h1>Subasta</h1>
-
-    <div id="form">
-    <p>Cantidad Proponentes</p> <input type="text" id="proponentes" class="inputform">
-    <p>Valor de lance</p> <input type="text" id="valorLance" class="inputform">
-    <p>Valor inicio de Subasta</p> <input type="text" id="valorContrato" class="inputform">
-    <p>Valor Contrato</p> <input type="text" id="valorRealContrato" class="inputform"><br><br>
-    <button onclick="crear_tabla()" class="inputform">Empezar</button>
+    <div id="container">
+        <img src="img/inicio.jpg" alt="">
     </div>
+    <div id="loginUser">
+        <form action="content/subasta.html" id="formloguin">
 
-    <div id="demo"></div>
-
-    <p id="resul"></p>
-
-    <script src="js/script.js"></script>
+        <label for="user">
+           <p class="bold">Usuario</p> <input type="text" id="user" class="inputform2">
+        </label>
+        <label for="password">
+            <p class="bold">Contraseña</p> <input type="password" id="password" class="inputform2">
+        </label>
+        <br><br>
+        <input type="submit" value="Ingresar" class="inputform2" id="btnsubmit">
+        <p id="msgError">Usuario No existe</p>
+    </form>
+    
+    </div>
+    
+    <script src="js/login.js"></script>
 </body>
 </html>

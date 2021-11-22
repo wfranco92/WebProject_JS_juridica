@@ -15,7 +15,7 @@ nav{
 li{
     
     float: left;
-    width: 10%;
+    width: 12%;
     padding: 5px;
 }
 nav ul{
@@ -47,6 +47,7 @@ h1{
 
 body{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 #form input{
     font-size: 22px;
@@ -129,6 +130,8 @@ p{
     margin-right: auto;
     margin-left: auto;
     display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 #btncalcular:hover{ background-color: rgb(241, 143, 125);}
@@ -141,3 +144,23 @@ img{
 figure{
     text-align: center;
 }
+
+#creartabla{
+    background-color: tomato;
+    color: aliceblue;
+    height: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#creartabla:hover{
+    background-color: rgb(252, 150, 133);
+}
+
+.btnLance{
+    background-color: tomato;
+    color: azure;
+}
+
+
+
