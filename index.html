@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
     <title>Jenny Chavez</title> 
 </head>
 <body>
@@ -15,7 +16,7 @@
         <form action="content/subasta.html" id="formloguin">
 
         <label for="user">
-           <p class="bold">Usuario</p> <input type="text" id="user" class="inputform2">
+           <p class="bold">Usuario</p> <input type="text" id="user" class="inputform2" autocomplete="off">
         </label>
         <label for="password">
             <p class="bold">Contraseña</p> <input type="password" id="password" class="inputform2">
@@ -23,6 +24,7 @@
         <br><br>
         <input type="submit" value="Ingresar" class="inputform2" id="btnsubmit">
         <p id="msgError">Usuario No existe</p>
+       
     </form>
     
     </div>
