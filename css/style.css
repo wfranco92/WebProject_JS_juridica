@@ -188,4 +188,7 @@ img{
 #msgError{
     font-weight: bold;
     display: none;
+    
+    border-left: 10px solid rgb(87, 38, 3);
+    height: 50px;
 }

@@ -1,3 +1,7 @@
+let fecha = new Date();
+
+console.log(fecha.getMonth());
+
 const user=document.getElementById("user");
 const pass=document.getElementById("password");
 const btnSend=document.getElementById("btnsubmit");
@@ -15,7 +19,13 @@ btnSend.addEventListener("click", (e) =>{
         //alert("Verifique credenciales de acceso")   
         document.getElementById("msgError").style.display="block";
         e.preventDefault();
+        setTimeout(()=>{
+            document.getElementById("msgError").style.display="none";
+        }, 3000);
         return false;
     }
 });
+
+
+
 
